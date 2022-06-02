@@ -1,0 +1,64 @@
+
+body{ 
+  background:url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	font-family: 'Sacramento', cursive;
+	font-size: 6rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	color: white;
+	
+}
+h4{
+	font-family: 'Josefin Slab', serif;
+	display: flex;
+	justify-content: center;
+	color: wheat;
+	margin-bottom: 30px;
+}
+.nav-link{
+	color: wheat;
+	font-family:'Josefin Slab', serif;
+}
+.nav-link:hover{
+	color: white;
+	transform: scale(1.2);
+	transition: all 0.4s;
+	font-weight: bold;
+}
+.id{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: space-around;
+	align-content: space-between;
+	align-content: space-around;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-body{
+	font-family:'Josefin Slab', serif;
+	font-weight: 600;
+
+}
+.card-title{
+	font-weight: bold;
+}
+.btn-primary{
+	border-radius: 25px;
+}
+.btn-primary:hover{
+	background-color: #D4B12A;
+	transform: scale(1.1);
+	transition: all 0.3s;
+	border-color: #D4B12A;
+	color: black;
+	font-weight: bold;
+}
